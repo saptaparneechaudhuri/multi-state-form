@@ -1,0 +1,55 @@
+.addon-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.addons {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.addon-item {
+  padding: 2rem;
+  border: 1px solid var(--color-light-gray);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.addon-item.active {
+  background-color: var(--color-magnolia);
+  border: 1px solid var(--color-marine-blue);
+}
+
+.addon-item .checkbox {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+}
+
+.addon-item .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.content .addon-title {
+  color: var(--color-marine-blue);
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.addon-description {
+  color: var(--color-cool-gray);
+  font-size: 1.2rem;
+}
+
+.addon-item .subscription {
+  margin-left: auto;
+  font-size: 1.2rem;
+  color: var(--color-purple-blue);
+}

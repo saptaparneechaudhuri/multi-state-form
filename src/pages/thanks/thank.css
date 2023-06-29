@@ -1,0 +1,23 @@
+.thanks-container {
+  width: 80%;
+  align-self: center;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks-container h1 {
+  color: var(--color-marine-blue);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.thanks-container p {
+  padding: 2rem;
+  color: var(--color-cool-gray);
+  font-size: 1.2rem;
+  text-align: center;
+}

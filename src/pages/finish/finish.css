@@ -1,0 +1,79 @@
+.common {
+  display: flex;
+  flex-direction: column;
+}
+
+.finish-container {
+  width: 100%;
+  margin-top: 5rem;
+  /* padding: 2rem; */
+}
+
+.finish-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color-magnolia);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.final-plan {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-cool-gray);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.final-plan-title,
+.final-plan-bill {
+  color: var(--color-marine-blue);
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.addon-services {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addon-services div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 2rem;
+}
+
+.service-name {
+  font-size: 1.6rem;
+  color: var(--color-cool-gray);
+}
+
+.service-bill {
+  color: var(--color-marine-blue);
+  font-size: 1.6rem;
+}
+
+.final-bill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.total {
+  color: var(--color-cool-gray);
+  font-size: 1.6rem;
+}
+
+.final-bill-amount {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: var(--color-purple-blue);
+}

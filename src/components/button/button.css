@@ -1,0 +1,18 @@
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  /* background-color: var(--color-marine-blue); */
+  color: var(--color-alabaster);
+  border-radius: 0.5rem;
+  margin-top: 5rem;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--color-marine-blue);
+}
+
+.secondary {
+  background-color: var(--color-purple-blue);
+}
